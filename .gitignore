@@ -1,0 +1,30 @@
+# ========== LOCAL PYTHON ENVIRONMENT ==========
+.venv/
+__pycache__/
+*.py[cod]
+
+# ========== SECRETS AND LOCAL CONFIGURATION ==========
+.env
+.env.*
+!.env.example
+secrets/
+config/local.*
+
+# ========== PRIVATE APPLICATION DATA ==========
+data/
+uploads/
+outputs/
+logs/
+*.db
+*.sqlite
+*.sqlite3
+*.db-*
+*.sqlite-*
+*.sqlite3-*
+
+# ========== DEVELOPMENT CACHE ==========
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
